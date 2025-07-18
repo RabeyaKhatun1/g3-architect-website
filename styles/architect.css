@@ -9,3 +9,75 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+/* dark 02 */
+.text-gray{
+  color: #424242;
+}
+/* dark 03 */
+.text-light-gray{
+  color:#727272 ;
+}
+.bg-light{
+  background-color: #fce0c1;
+}
+.btn-primary{
+background-color: #FF900E;
+color: white;
+padding-top: 20px 25px;
+font-size: 1.25rem;
+font-weight: 600px;
+border: none;
+border-radius: 8px;
+}
+
+
+/* header styles */
+
+
+/* nav-bar ralated styles */
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link{
+text-decoration: none;
+font-weight: 500px;
+}
+.nav-item{
+  list-style: none;
+margin-right: 30px; 
+}
+.navbar, .banner{
+  max-width: 1440px ;
+ margin: 0 auto;
+}
+.brand{
+  font-weight: 700;
+  font-size: 45px;
+}
+/* banner related styles */
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 4rem;
+}
+.banner-image{
+width: 100%;
+}
+/* responsive media query
+ */
+
+ @media screen and (max-width:576px){
+  .navbar, .nav-link{
+    flex-direction: column;
+  }
+ }
